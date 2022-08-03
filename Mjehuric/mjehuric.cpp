@@ -18,6 +18,10 @@ int main() {
 		} else if(numlist[3] > numlist[4]) {
 			swap(numlist[3],numlist[4]);
 		} else {
+			for(int i = 0;i < 5;i++) {
+				cout << numlist[i] << ' ';
+			}
+			cout << endl;
 			break;
 		}
 		for(int i = 0;i < 5;i++) {
